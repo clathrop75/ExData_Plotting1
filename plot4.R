@@ -38,4 +38,5 @@ legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"
 # Add the fourth graph of the Global reactive power over time
 plot(power$DateTime, power$Global_reactive_power, xlab="datetime", ylab="Global_reactive_power", type="l")
 
+# Close the png device
 dev.off()
